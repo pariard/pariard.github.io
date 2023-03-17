@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://pariard.github.io/sitemap.xml

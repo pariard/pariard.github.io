@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Paria Rashidinejad</title>
+    <link>https://pariard.github.io/publication/</link>
+      <atom:link href="https://pariard.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pariard.github.io/media/icon_hu73346626ae0ffacf81635b354b5834e6_3495_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://pariard.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Efficient Online and Offline Reinforcement Learning via Offline Regression Oracles</title>
+      <link>https://pariard.github.io/publication/mis-explore/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/mis-explore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Importance Weighted Actor-Critic for Optimal Conservative Offline Reinforcement Learning</title>
+      <link>https://pariard.github.io/publication/acrab/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/acrab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Conservative Offline RL with General Function Approximation via Augmented Lagrangian</title>
+      <link>https://pariard.github.io/publication/almis/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/almis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging Offline Reinforcement Learning and Imitation Learning: A Tale of Pessimism</title>
+      <link>https://pariard.github.io/publication/bridging/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/bridging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MADE: Exploration via Maximizing Deviation from Explored Regions</title>
+      <link>https://pariard.github.io/publication/made/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/made/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLIP: Learning to Predict in Unknown Dynamical Systems with Long-Term Memory</title>
+      <link>https://pariard.github.io/publication/slip/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/slip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patient-Adaptable Intracranial Pressure Morphology Analysis Using a Probabilistic Model-Based Approach</title>
+      <link>https://pariard.github.io/publication/icp/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/icp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Techniques for Accurately Estimating the Reliability of Storage Systems</title>
+      <link>https://pariard.github.io/publication/reliabilitypatent/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/publication/reliabilitypatent/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

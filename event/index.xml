@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Paria Rashidinejad</title>
+    <link>https://pariard.github.io/event/</link>
+      <atom:link href="https://pariard.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jun 2021 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pariard.github.io/media/icon_hu73346626ae0ffacf81635b354b5834e6_3495_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
+      <link>https://pariard.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>Bridging Offline Reinforcement Learning and Imitation Learning: A Tale of Pessimism</title>
+      <link>https://pariard.github.io/talk/bridging-offline-reinforcement-learning-and-imitation-learning-a-tale-of-pessimism/</link>
+      <pubDate>Tue, 15 Jun 2021 10:00:00 +0000</pubDate>
+      <guid>https://pariard.github.io/talk/bridging-offline-reinforcement-learning-and-imitation-learning-a-tale-of-pessimism/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/oK0iPImC6KI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>SLIP: Learning to Predict in Unknown Dynamical Systems with Long-Term Memory</title>
+      <link>https://pariard.github.io/talk/slip-learning-to-predict-in-unknown-dynamical-systems-with-long-term-memory/</link>
+      <pubDate>Tue, 08 Dec 2020 06:15:00 +0000</pubDate>
+      <guid>https://pariard.github.io/talk/slip-learning-to-predict-in-unknown-dynamical-systems-with-long-term-memory/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --&gt;
+&lt;div id=&#34;presentation-embed-38938543&#34;&gt;&lt;/div&gt;
+&lt;script src=&#39;https://slideslive.com/embed_presentation.js&#39;&gt;&lt;/script&gt;
+&lt;script&gt;
+    embed = new SlidesLiveEmbed(&#39;presentation-embed-38938543&#39;, {
+        presentationId: &#39;38938543&#39;,
+        autoPlay: false, // change to true to autoplay the embedded presentation
+        verticalEnabled: true
+    });
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
