@@ -1,0 +1,553 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+-->
+<html lang="en">
+  <head>
+    <title>Research – Paria Rashidinejad</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Research – Paria Rashidinejad, Assistant Professor at USC." />
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+
+    <!-- Icons (if you ever need them here) -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Main theme CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Custom styling to match homepage -->
+    <style>
+      :root {
+        --bg: #faf9f5;
+        --bg-alt: #E3D8C9;
+        --text: #4A5568;
+        --heading: #1F2937;
+        --accent: #1D3A5F;
+        --accent-hover: #B3C4BF;
+        --accent-soft: #B98A68;
+        --border-soft: #DDD3C3;
+      }
+
+      body {
+        font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+        background-color: var(--bg);
+        color: var(--text);
+      }
+
+      /* Sidebar: slightly darker warm background than main */
+      #sidebar {
+        background-color: #f7f5ef;
+      }
+
+      #sidebar > .inner {
+        background-color: transparent;
+      }
+
+      #sidebar > .inner > .alt {
+        background-color: #e8dfd1;
+      }
+
+      /* TEXT LINKS (non-buttons) */
+      a:not(.button) {
+        color: var(--accent);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        border-bottom: none;
+        background-color: transparent;
+        box-shadow: none;
+      }
+
+      a:not(.button):hover {
+        color: var(--accent-hover);
+        border-bottom: none;
+        background-color: transparent;
+        box-shadow: none;
+      }
+
+      /* Remove grey section dividers from the template */
+      #main > .inner > section,
+      section {
+        border-top: none !important;
+      }
+
+	  #main > .inner > section {
+  border-top: none;          /* kill the template's top border */
+  padding: 1rem 0 0.5rem;    /* much smaller vertical padding than 6em/4em */
+}
+
+      /* Remove the orange line under section headers (Pre-Prints etc.)
+      header.major > :last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 1.25em;
+      } */
+
+      /* Headings: same as homepage */
+      h1, h2, h3 {
+        font-family: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: var(--heading);
+      }
+
+      /* ====== Publication styling ====== */
+
+      .pub-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .pub-item {
+        padding: 0rem 0;
+      }
+
+      .pub-title {
+		font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+		color: var(--text);
+		letter-spacing: 0;    /* optional: remove extra spacing */
+		margin: 0 0 0.15rem 0;   /* tiny bottom margin */
+		}
+
+      .pub-authors {
+        color: var(--text);
+        margin: 0 0 0rem;
+      }
+
+      .pub-authors .me {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+      }
+
+      /* Line with venue + arXiv + buttons all together */
+      .pub-meta-line {
+  display: block;
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-align: left;
+}
+
+/* Buttons: always on their own row under the venue */
+.pub-links {
+  display: flex;            /* horizontal row of small buttons */
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.1rem;       /* space between venue and buttons */
+}
+
+
+      .pub-venue {
+        margin-right: 0.75rem;
+      }
+
+      /* .pub-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      } */
+
+      /* Small buttons, same visual style as homepage (orange outline + light fill on hover) */
+      .pub-links .button.pub-btn {
+        box-shadow: inset 0 0 0 2px #5279a2 !important;  /* orange border */
+        color: #5279a2 !important;                       /* orange text */
+        background-color: transparent !important;        /* no fill */
+        font-size: 0.7em;                                /* smaller than default */
+        height: auto;
+        line-height: 1.4;
+        padding: 0.25em 0.9em;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+	  .oral-tag {
+  color: #f56a6a;      /* your orange */
+  font-weight: 600;    /* keep it bold */
+}
+      .pub-links .button.pub-btn:hover {
+        background-color: rgba(245, 106, 106, 0.08) !important; /* light orange wash */
+        color: #5279a2 !important;
+        box-shadow: inset 0 0 0 2px #5279a2 !important;
+      }
+
+      @media screen and (max-width: 736px) {
+        .pub-meta-line {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    </style>
+
+    <!-- Old GA snippet (same as other pages) -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78683315-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+
+          <!-- Header -->
+          <header id="header">
+            <h2>Research</h2>
+          </header>
+
+          <!-- Pre-Prints -->
+          <section id="preprints">
+            <header class="major">
+              <h3>Pre-Prints</h3>
+            </header>
+
+            <div class="pub-list">
+              <article class="pub-item">
+                <p class="pub-title">
+                  <strong>SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models</strong>
+				</p>
+                <p class="pub-authors">
+                  Chenyu Wang, <span class="me">Paria Rashidinejad</span>, DiJia Su,
+                  Song Jiang, Sid Wang, Siyan Zhao, Cai Zhou, Shannon Zejiang Shen,
+                  Feiyu Chen, Tommi Jaakkola, Yuandong Tian, Bo Liu
+                </p>
+
+                <div class="pub-meta-line">
+                  <span class="pub-venue">
+					MATH-AI@NeurIPS 2025; Efficient Reasoning@NeurIPS 2025
+                    <!-- <a href="https://arxiv.org/abs/2510.09541"
+                       target="_blank" rel="noopener noreferrer">
+                    </a> -->
+                  </span>
+
+                  <div class="pub-links">
+                    <a href="https://arxiv.org/pdf/2510.09541"
+                       class="button pub-btn"
+                       target="_blank" rel="noopener noreferrer">
+                      Paper
+                    </a>
+                    <a href="https://github.com/facebookresearch/SPG"
+                       class="button pub-btn"
+                       target="_blank" rel="noopener noreferrer">
+                      Code
+                    </a>
+                    <a href="https://chenyuwang-monica.github.io/spg/"
+                       class="button pub-btn"
+                       target="_blank" rel="noopener noreferrer">
+                      Project Website
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+
+          </section>
+
+          <!-- Publications -->
+          <section id="publications">
+            <header class="major">
+              <h3>Publications</h3>
+            </header>
+            
+			<div class="pub-list">
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>Sail into the Headwind: Alignment via Robust Rewards and Dynamic Labels against Reward Hacking</strong>
+				  </p>
+				  <p class="pub-authors">
+					<span class="me">Paria Rashidinejad</span>, Yuandong Tian
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+					International Conference on Learning Representations (ICLR) 2025
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://arxiv.org/abs/2412.09544"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					</div>
+				  </div>
+				</article>
+
+		
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>Importance Weighted Actor-Critic for Optimal Conservative Offline Reinforcement Learning</strong>
+				  </p>
+				  <p class="pub-authors">
+					Hanlin Zhu, <span class="me">Paria Rashidinejad</span>, Jiantao Jiao
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+						Advances in Neural Information Processing Systems (NeurIPS) 2023
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://arxiv.org/abs/2301.12714"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					  <a href="https://github.com/zhuhl98/ACrab"
+                       class="button pub-btn"
+                       target="_blank" rel="noopener noreferrer">
+                      Code
+                    </a>
+					</div>
+				  </div>
+				</article>
+			  
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>Optimal Conservative Offline RL with General Function Approximation via Augmented Lagrangian</strong>
+				  </p>
+				  <p class="pub-authors">
+					<span class="me">Paria Rashidinejad</span>, Hanlin Zhu, Kunhe Yang, Stuart Russell, Jiantao Jiao
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+						International Conference on Learning Representations (ICLR), 2023 <strong class="oral-tag">(Spotlight, top 8%)</strong>
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://arxiv.org/abs/2211.00716"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					</div>
+				  </div>
+				</article>
+			  
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>Bridging Offline Reinforcement Learning and Imitation Learning: A Tale of Pessimism</strong>
+				  </p>
+			  
+				  <p class="pub-authors">
+					<span class="me">Paria Rashidinejad</span>, Banghua Zhu, Cong Ma, Jiantao Jiao, Stuart Russell
+				  </p>
+			  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+					  IEEE Transactions on Information Theory, 2022<br>
+					  Advances in Neural Information Processing Systems (NeurIPS), 2021
+					</span>
+			  
+					<span class="pub-links">
+					  <a href="https://arxiv.org/abs/2103.12021"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					  <a href="https://youtu.be/oK0iPImC6KI?si=-iRZb25wZSBcSd8W"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Talk
+					  </a>
+					</span>
+				  </div>
+				</article>
+			  
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>MADE: Exploration via Maximizing Deviation from Explored Regions</strong>
+				  </p>
+				  <p class="pub-authors">
+					Tianjun Zhang*, <span class="me">Paria Rashidinejad*</span>, Jiantao Jiao, Yuandong Tian, Joseph Gonzalez, Stuart Russell<br>
+					*equal contribution
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+						Advances in Neural Information Processing Systems (NeurIPS), 2021
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://arxiv.org/abs/2106.10268"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					</div>
+				  </div>
+				</article>
+			  
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>Patient-Adaptable Intracranial Pressure Morphology Analysis Using a Probabilistic Model-Based Approach</strong>
+				  </p>
+				  <p class="pub-authors">
+					<span class="me">Paria Rashidinejad</span>, Xiao Hu, Stuart Russell
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+						Physiological Measurement, 2020
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://iopscience.iop.org/article/10.1088/1361-6579/abbcbb/meta"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					</div>
+				  </div>
+				</article>
+			  
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>SLIP: Learning to Predict in Unknown Dynamical Systems with Long-Term Memory</strong>
+				  </p>
+				  <p class="pub-authors">
+					<span class="me">Paria Rashidinejad</span>, Jiantao Jiao, Stuart Russell
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+						Advances in Neural Information Processing Systems (NeurIPS), 2020 <strong class="oral-tag">(Oral, top 1%)</strong>
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://arxiv.org/pdf/2010.05899"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Paper
+					  </a>
+					</div>
+				  </div>
+				</article>
+			  </div>
+
+          </section>
+
+          <!-- Patents -->
+          <section id="patents">
+            <header class="major">
+              <h3>Patents</h3>
+            </header>
+            <div class="pub-list">
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>Techniques for Accurately Estimating the Reliability of Storage Systems</strong>
+				  </p>
+				  <p class="pub-authors">
+					<span class="me">Paria Rashidinejad</span>, Navaneeth Jamadagni, Arun Raghavan, Craig Schelp, Charles Gordon
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<span class="pub-venue">
+						U.S. Patent No. 11,416,324.
+					   
+					</span>
+  
+					<div class="pub-links">
+					  <a href="https://patentimages.storage.googleapis.com/6e/ba/c3/f564cd97b25455/US20200371855A1.pdf"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Patent
+					  </a>
+					</div>
+				  </div>
+				</article>
+			  </div>
+          </section>
+
+		  <!-- Technical Reports -->
+          <!-- <section id="techreports">
+            <header class="major">
+              <h3>Technical Reports</h3>
+            </header>
+            <div class="pub-list">
+				<article class="pub-item">
+				  <p class="pub-title">
+					<strong>The llama 4 herd: The beginning of a new era of natively multimodal AI innovation</strong>
+				  </p>
+				  <p class="pub-authors">
+					Meta AI
+				  </p>
+  
+				  <div class="pub-meta-line">
+					<div class="pub-links">
+					  <a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+						 class="button pub-btn"
+						 target="_blank" rel="noopener noreferrer">
+						Blog Post
+					  </a>
+					</div>
+				  </div>
+				</article>
+			  </div>
+          </section> -->
+
+
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div class="inner">
+
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Paria Rashidinejad</h2>
+            </header>
+            <ul>
+              <li><a href="index.html">Homepage</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="teaching.html">Teaching</a></li>
+              <!-- <li><a href="group.html">Group</a></li> -->
+              <!-- <li><a href="joinus.html">Join Us!</a></li> -->
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
+
